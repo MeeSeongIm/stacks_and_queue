@@ -20,8 +20,9 @@ print(queue)
 
 for i in list(range(int(n/2))):
     queue.popleft()                      #first-in, first-out 
+    print(queue)
 
-print(queue)
+
 
 
 
