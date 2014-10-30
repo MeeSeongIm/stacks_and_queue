@@ -4,7 +4,7 @@
 # The main advantage of a list: fast random reads.  
 
 from collections import deque  
-n = 20
+n = 10
 
 queue = deque([])
  
