@@ -19,7 +19,7 @@ for i in list(range(n+1,2*n+1)):
 print(queue)
 
 for i in list(range(int(n/2))):
-    queue.popleft()
+    queue.popleft()                      #first-in, first-out 
 
 print(queue)
 
